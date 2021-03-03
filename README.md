@@ -1,5 +1,5 @@
-# Data-Structure
-with.Holy-Grail
+># Data-Structure
+*with.Holy-Grail*
 
 array list & linked list
 
