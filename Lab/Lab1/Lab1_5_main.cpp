@@ -3,7 +3,7 @@
 #include <iostream>
 #include <cstring>
 
-#include "StrType.h"
+#include "Lab_5.h"
 #include <cctype> 
 using namespace std;
 #define _CRT_SECURE_NO_WARNINGS
@@ -126,7 +126,7 @@ void GetTilNew(bool skip, char letters[], std::ifstream& inFile)
   }
 }
 
-//ComparedTo ÇÔ¼ö!!!!!!!!!!!!
+//ComparedTo Ã‡Ã”Â¼Ã¶!!!!!!!!!!!!
 RelationType StrType::ComparedTo(StrType& otherString)
 {
     int idx = 0;
@@ -159,7 +159,7 @@ RelationType StrType::ComparedTo(StrType& otherString)
     }
 }
 
-int compareStr(char a[], char b[]) //´õ ÀÛÀº ¼öÀÇ ±æÀÌ return
+int compareStr(char a[], char b[]) //Â´Ãµ Ã€Ã›Ã€Âº Â¼Ã¶Ã€Ã‡ Â±Ã¦Ã€ÃŒ return
 {
     int x, y;
     x = strlen(a);
