@@ -1,11 +1,11 @@
 /*
-arrayAÇà·Ä°ú arrayBÇà·ÄÀ» ¸¸µé°í 5x5¹üÀ§¸¦ 0À¸·Î ÃÊ±âÈ­ÇÑ´Ù.
-arrayAÀÇ 1, 1ÀÚ¸®¿¡ 10ÀÇ °ªÀ» ´ëÀÔÇÑ´Ù.
-arrayB¿¡ arrayA¸¦ º¹»çÇØ ºÙ¿©ÁØ´Ù.
-arrayBÀÇ 1, 1ÀÚ¸®ÀÇ °ªÀ» Ãâ·ÂÇÑ´Ù.//10
+arrayAí–‰ë ¬ê³¼ arrayBí–‰ë ¬ì„ ë§Œë“¤ê³  5x5ë²”ìœ„ë¥¼ 0ìœ¼ë¡œ ì´ˆê¸°í™”í•œë‹¤.
+arrayAì˜ 1, 1ìë¦¬ì— 10ì˜ ê°’ì„ ëŒ€ì…í•œë‹¤.
+arrayBì— arrayAë¥¼ ë³µì‚¬í•´ ë¶™ì—¬ì¤€ë‹¤.
+arrayBì˜ 1, 1ìë¦¬ì˜ ê°’ì„ ì¶œë ¥í•œë‹¤.//10
 */
 
-#include "Exercise28h.h"
+#include "Lab1_4.h"
 #include <iostream>
 
 int main()
@@ -14,7 +14,7 @@ int main()
 	arrayA.MakeEmpty(5);
 	SquareMatrix arrayB;
 	arrayB.MakeEmpty(5);
-	arrayA.StoreValue(1, 1, 10); //arrayAÀÇ [1][1] data´Â 10
+	arrayA.StoreValue(1, 1, 10); //arrayAì˜ [1][1] dataëŠ” 10
 	arrayB.Copy(arrayA);         //arrayB = arrayA
-	arrayB.display(1, 1);        //10ÀÌ Ãâ·ÂµÇ¾î¾ß ÇÑ´Ù
+	arrayB.display(1, 1);        //10ì´ ì¶œë ¥ë˜ì–´ì•¼ í•œë‹¤
 }
