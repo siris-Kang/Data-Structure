@@ -1,6 +1,8 @@
 ># Data-Structure
 *with.Holy-Grail*
 
-array list & linked list
+App is simple question and submit on the day
+Every Tuesday
 
-circular linked list & doubly linked list
+Lab is the task for two-days
+Everty Thursday
