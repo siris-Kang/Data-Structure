@@ -1,27 +1,27 @@
 /*
-±Ô°Ý¸í¼¼
+ê·œê²©ëª…ì„¸
 MakeEmpty
-±â´É : MatrixÀÇ nÇà°ú ¿­ÀÇ ³»ºÎ¸¦ 0À¸·Î ÃÊ±âÈ­
-Á¶°Ç : NÀÇ ÃÖ´ë Å©±â´Â 50
-°á°ú : N¾ÈÀÇ Çà, ¿­Àº 0À¸·Î ÃÊ±âÈ­
+ê¸°ëŠ¥ : Matrixì˜ ní–‰ê³¼ ì—´ì˜ ë‚´ë¶€ë¥¼ 0ìœ¼ë¡œ ì´ˆê¸°í™”
+ì¡°ê±´ : Nì˜ ìµœëŒ€ í¬ê¸°ëŠ” 50
+ê²°ê³¼ : Nì•ˆì˜ í–‰, ì—´ì€ 0ìœ¼ë¡œ ì´ˆê¸°í™”
 
 StroreValue
-±â´É : value¸¦ iÇà, j¿­ÀÇ À§Ä¡¿¡ ÀúÀå
-Á¶°Ç : i¿Í j´Â 0¿¡¼­ 50 »çÀÌÀÇ ¼ö
-°á°ú : value¸¦ iÇà, j¿­ÀÇ À§Ä¡¿¡ ÀúÀå
+ê¸°ëŠ¥ : valueë¥¼ ií–‰, jì—´ì˜ ìœ„ì¹˜ì— ì €ìž¥
+ì¡°ê±´ : iì™€ jëŠ” 0ì—ì„œ 50 ì‚¬ì´ì˜ ìˆ˜
+ê²°ê³¼ : valueë¥¼ ií–‰, jì—´ì˜ ìœ„ì¹˜ì— ì €ìž¥
 
 Add/Subtract
-±â´É : µÎ Çà·ÄÀ» ´õÇÑ´Ù/»«´Ù.
-Á¶°Ç : °´Ã¼°¡ °¡Áø °ª°ú ÆÄ¶ó¹ÌÅÍ·Î ¹Þ´Â Çà·ÄÀÇ °ªÀ» Â÷·Ê·Î ´õÇÑ´Ù/–A´Ù.
-°á°ú : °´Ã¼´Â µÎ Çà·ÄÀÇ °ªÀ» ´õÇÑ/»« °á°ú °ªÀ» °®´Â´Ù.
+ê¸°ëŠ¥ : ë‘ í–‰ë ¬ì„ ë”í•œë‹¤/ëº€ë‹¤.
+ì¡°ê±´ : ê°ì²´ê°€ ê°€ì§„ ê°’ê³¼ íŒŒë¼ë¯¸í„°ë¡œ ë°›ëŠ” í–‰ë ¬ì˜ ê°’ì„ ì°¨ë¡€ë¡œ ë”í•œë‹¤/Â–Aë‹¤.
+ê²°ê³¼ : ê°ì²´ëŠ” ë‘ í–‰ë ¬ì˜ ê°’ì„ ë”í•œ/ëº€ ê²°ê³¼ ê°’ì„ ê°–ëŠ”ë‹¤.
 
 Copy
-±â´É : ÇÑ Çà·ÄÀ» ´Ù¸¥ Çà·Ä·Î º¹»çÇÑ´Ù.
-Á¶°Ç : º¹»ç»ý¼ºÀÚ¸¦ ÀÌ¿ëÇØµµ µÉ °Í °°´Ù.
-°á°ú : µÎ °´Ã¼ÀÇ Çà·ÄÀÌ °°Àº °ªÀ» °®´Â´Ù.
+ê¸°ëŠ¥ : í•œ í–‰ë ¬ì„ ë‹¤ë¥¸ í–‰ë ¬ë¡œ ë³µì‚¬í•œë‹¤.
+ì¡°ê±´ : ë³µì‚¬ìƒì„±ìžë¥¼ ì´ìš©í•´ë„ ë  ê²ƒ ê°™ë‹¤.
+ê²°ê³¼ : ë‘ ê°ì²´ì˜ í–‰ë ¬ì´ ê°™ì€ ê°’ì„ ê°–ëŠ”ë‹¤.
 */
 
-#include "Exercise28h.h"
+#include "Lab1_4.h"
 #include <iostream>
 
 SquareMatrix::SquareMatrix()
